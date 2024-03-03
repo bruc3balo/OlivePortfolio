@@ -1,0 +1,9 @@
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/olive.jpeg"
+    background_color: "#FFFFF"
+    theme_color: "#570FF2"

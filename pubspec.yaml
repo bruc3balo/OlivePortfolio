@@ -1,0 +1,36 @@
+name: olive_portolio
+description: "Olive's portfolio"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-99.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  hexcolor: ^3.0.1
+  google_fonts: ^6.2.0
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  blur: ^3.1.0
+  blurrycontainer: ^1.0.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
+   - assets/big_bg_1.svg
+   - assets/big_bg_2.svg
+   - assets/small_bg_1.svg
+   - assets/small_bg_2.svg
+   - assets/olive.jpeg
